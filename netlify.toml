@@ -1,0 +1,8 @@
+﻿[build]
+  command = "npm --prefix election-ai-main/election-app-main run build"
+  publish = "election-ai-main/election-app-main/build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
