@@ -1,6 +1,7 @@
 [build]
-  command = "npm --prefix election-ai-main/election-app-main run build"
-  publish = "election-ai-main/election-app-main/build"
+  base = "election-ai-main/election-app-main"
+  command = "npm run build"
+  publish = "build"
 
 [[redirects]]
   from = "/*"
