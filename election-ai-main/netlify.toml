@@ -1,4 +1,4 @@
-﻿[build]
+[build]
   command = "npm --prefix election-app-main run build"
   publish = "election-app-main/build"
 
